@@ -1,0 +1,20 @@
+q1:
+    the entry point address specified in the ELF header 
+    his value is 0x80482e0
+    
+q2:
+    the number of sections specified in the ELF header 
+    there are 34 sections in this file
+    
+q3:
+    the size of .text section is 1b8 bytes
+    
+q4:
+    entry point is the pointer to the _start (by defult)
+    also, we can find it in the symbol sections, num 57
+    
+q5:
+    yes, 08048388. we can find it in the symbol sections, num 60
+    
+q6: start in section text (num 12). offset = 0x80482e0 - 0x8048388 = a8
+    

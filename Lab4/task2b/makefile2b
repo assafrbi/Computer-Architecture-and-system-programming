@@ -1,0 +1,18 @@
+all: flame2
+
+flame2: start.o util.o task2b.c.o
+	ld -m elf_i386 start.o task2b.c.o util.o -o flame2
+
+start.o: start.s
+	nasm -f elf32 start.s -o start.o
+
+util.o: util.c util.h
+	gcc -m32 -Wall -ansi -c -nostdlib -fno-stack-protector util.c -o util.o
+
+task2b.c.o: task2b.c.c
+	gcc -m32 -Wall -ansi -c -nostdlib -fno-stack-protector task2b.c.c -o task2b.c.o
+
+.PHONY: clean
+
+clean: 
+	rm -f *.o flame2
