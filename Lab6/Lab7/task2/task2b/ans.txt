@@ -1,2 +1,0 @@
-q2. _start funcation
-q3. 0x08048080

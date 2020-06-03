@@ -1,2 +1,0 @@
-push ebp 55
-mov ebp, esp 89E5
