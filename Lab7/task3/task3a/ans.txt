@@ -1,0 +1,8 @@
+q1. the offset  is 464 (section .text offset + function virtual address - section .text virtual address)
+q2. the size of main function is 175
+
+q1. main function appears in line 65.
+    function virtual address: 08048464
+q3. section .text appears in line 13
+q4. section virtual address: 080483b0
+    section file offset: 0003b0

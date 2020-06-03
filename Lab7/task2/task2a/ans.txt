@@ -1,0 +1,2 @@
+q2. _start funcation
+q3. 0x080490c2
