@@ -1,5 +1,5 @@
 # Computer architecture and system programming
-##Course at Ben-Gurion University
+## Course at Ben-Gurion University
 Collection of tasks from the labs that were during the course. 
 The tasks dealt with the following topics:
 * C programming
